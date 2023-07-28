@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add employee detail</title>
+    <style>
+h1{
+    background-color: blueviolet;
+    font-style: italic;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <h1>ADD EMPLOYEE OF COMPNY</h1>
+    <form action="/employees" method="post">
+        <fieldset>
+            <legend>please add details of employee</legend>
+
+
+            <label for="name">NAME:</label>
+            <input type="text" name="name" id="name" required autofocus><br><br>
+
+            <label for="password">PASSWORD:</label>
+            <input type="password" name="password" id="password" maxlength="8"><br><br>
+
+            <label for="department">DEPARTMENT:</label>
+            <input type="text" name="department" id="department"><br><br>
+
+            <label for="email">EMAIL:</label>
+            <input type="email" name="email" id="email" required><br><br>
+            
+
+            <label for="mobile_no">MOBILE_NO:</label>
+            <input type="tel" name="mobile_no" id="mobile_no" required="9999-999-999"><br><br>
+            
+            <label for="age">AGE:</label>
+            <input type="number" name="age" id="age"><br><br>
+
+            <label for="gender">GENDER:</label>
+           Male :<input type="radio" name="gender" id="gender">
+           Female: <input type="radio" name="gender" id="gender">
+           Other: <input type="radio" name="gender" id="gender"><br><br>
+
+            <label for="dob">DOB:</label>
+            <input type="date" name="dob" id="dob"><br><br>
+
+            <label for="Date_Of_Joining">Date_Of_Joining:</label>
+            <input type="date" name="Date_Of_Joining" id="Date_Of_Joining"><br><br>
+
+
+<label for="profile_photo">profile_photo:</label>
+<input type="file" name="profile_photo" id="profile_photo" src=""><br><br>
+
+
+
+
+            <label for="city">CITY:</label>
+            <select name="city" id="city">
+        <OPtion>INDORE</OPtion>
+        <OPtion>DEWAS</OPtion>
+        <OPtion>UJJAIN</OPtion>
+        <OPtion>BHOPAL</OPtion>
+        </select><br><br>
+
+
+            <label for="address">ADDRESS:</label>
+            <input type="text" name="address" id="address"><br><br>
+             
+            <label for="describtion">Describtion:</label>
+            <textarea name="describtion" id="describtion" cols="30" rows="10"></textarea><br><br>
+
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">I agree all terms and condition:</label><br><br>
+            
+
+            <input type="submit" value="register"><br><br>
+            <input type="reset" value="reset">
+        </fieldset>
+
+
+    </form>
+    
+</body>
+</html>
