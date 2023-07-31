@@ -4,24 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>add employee detail</title>
-    <style>
-h1{
-    background-color: blueviolet;
-    font-style: italic;
-    text-align: center;
-}
-
-    </style>
+    <link rel="stylesheet" href="addemp.css">
 </head>
 <body>
-    <h1>ADD EMPLOYEE OF COMPNY</h1>
+    <h1>ADD EMPLOYEE OF COMPNEY</h1>
     <form action="/employees" method="post">
-        <fieldset>
+        <fieldset class="colon">
             <legend>please add details of employee</legend>
 
 
             <label for="name">NAME:</label>
-            <input type="text" name="name" id="name" required autofocus><br><br>
+            <input  type="text" name="name" id="name" required autofocus><br><br>
 
             <label for="password">PASSWORD:</label>
             <input type="password" name="password" id="password" maxlength="8"><br><br>
